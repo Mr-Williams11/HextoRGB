@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: turquoise;
+}
+
+.container {
+    text-align: center;
+    background-color: black;
+    color: red;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 20px 50px red;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+#hexInput {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.output-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.rgbOutputItem {
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.rgbOutputItem:nth-child(odd) {
+    background-color: #3498db;
+}
+
+.rgbOutputItem:nth-child(even) {
+    background-color: #2ecc71;
+}
